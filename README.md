@@ -68,19 +68,19 @@ networks:
 ```
 # E-Mail-Adresse für Let's encrypt
 {
-    email manfred.nitsche@open-jazz.de
+    email dein.Name@mail.de
 }
 
-omv.tma1.duckdns.org {
-    reverse_proxy 192.168.17.105:81
+omv.deineDomain.org {
+    reverse_proxy 192.168.xxx.xxx:port
 }
 
-jellyfin.tma1.duckdns.org {
-    reverse_proxy 192.168.17.105:8096
+jellyfin.deineDomain.org {
+    reverse_proxy 192.168.xxx.xxx:port
 }
 
-apachegua.tma1.duckdns.org {
-    reverse_proxy 192.168.17.105:8081
+apachegua.deineDomain.org {
+    reverse_proxy 192.16.xxx.xxx:port
 }
 ```
 
