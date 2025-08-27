@@ -19,7 +19,7 @@ Siehe: [Caddy Dokumentation](https://caddyserver.com/)
 **Diese Befehle als Benutzer ausführen**
 1. Verzeichnisse erstellen
 ```
-sudo mkdir -pv /opt/caddy/{data,config}
+sudo mkdir -pv /opt/caddy/{data,config,file}
 sudo chown -Rv $USER: /opt/caddy
 ```
 
@@ -56,7 +56,7 @@ ervices:
     simple-http-server:
       image: jdkelley/simple-http-server:latest
         volumes:
-          - ./file:/serve
+          - /opt/caddy/file:/serve
         networks:
           - caddy_net
 networks:
@@ -89,7 +89,7 @@ apachegua.deineDomain.org {
 cd /opt/caddy
 docker network create caddy_net
 docker compose up -d
-#docker compose -f compose-http-server.yaml up -d # Not now! I have to fix it.
+#docker compose -f compose-http-server.yaml up -d
 ```
 
 
