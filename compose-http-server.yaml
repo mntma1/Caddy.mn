@@ -3,7 +3,7 @@ services:
     simple-http-server:
         image: jdkelley/simple-http-server:latest
         volumes:
-            - ./file:/serve
+            - /opt/caddy/file:/serve
         networks:
             - caddy_net
 networks:
