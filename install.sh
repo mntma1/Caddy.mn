@@ -5,7 +5,7 @@
 # Legt die Verzeichnisse an und kopiert die Dateien (überschreibt vorhandene).
 sudo mkdir -pv /opt/caddy/{data,config,file}
 sudo chown -Rv $USER: /opt/caddy
-cp -fv compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/  
+cp -fv install.sh compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/  
 
 # Gibt mehrzeiligen Text aus.
 cat<<eof
