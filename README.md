@@ -9,5 +9,15 @@ Siehe: [Caddy Dokumentation](https://caddyserver.com/)
 
 1. Lade das Repositroy herunter
 ```
-
+git clone https://github.com/mntma1/Caddy.mn.git
 ```
+
+2. Feuere das install-Script ab.
+```
+cd Caddy.mn
+./install.sh
+```
+
+3. Befolge die Anweisungen
+
+## Viel Erfolg
