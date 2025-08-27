@@ -6,6 +6,7 @@
 sudo mkdir -pv /opt/caddy/{data,config,file}
 sudo chown -Rv $USER: /opt/caddy
 cp -fv install.sh compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/  
+docker network create caddy_net
 
 # Gibt mehrzeiligen Text aus.
 cat<<eof
@@ -13,7 +14,6 @@ cat<<eof
 Führe nun nacheinander die folgenden Befehle aus:
 
 cd /opt/caddy
-docker network create caddy_net
 docker compose up -d
 docker compose -f compose-http-server.yaml up -d
 
