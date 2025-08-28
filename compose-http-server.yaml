@@ -4,6 +4,8 @@ services:
         image: jdkelley/simple-http-server:latest
         volumes:
             - /opt/caddy/file:/serve
+        ports:
+            - 81:8000
         networks:
             - caddy_net
 networks:
