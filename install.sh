@@ -6,7 +6,7 @@
 sudo mkdir -pv /opt/caddy/{data,config,file}
 sudo chown -Rv $USER: /opt/caddy
 cp -fv install.sh compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/  
-cp -fv index.ftml /opt/caddy/file
+cp -fv index.html /opt/caddy/file
 docker network create caddy_net
 
 # Gibt mehrzeiligen Text aus.
