@@ -4,14 +4,14 @@
 # Caddy Reverse Proxy 
 Siehe: [Caddy Blogbeitrag von Jusec ](https://jusec.me/caddy/)
 > [!TIP]
-> Mach dir erstmal einen Kaffee, dies hier kann nemlich etwas dauern.
+> Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
 
-1. Lade das Repositroy herunter
+1. Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-2. Feuere das install-Script ab.
+2. Feuere das Install-Script ab.
 ```
 cd Caddy.mn
 ./install.sh
