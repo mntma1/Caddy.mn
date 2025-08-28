@@ -14,9 +14,11 @@ cat<<eof
 
 Führe nun nacheinander die folgenden Befehle aus:
 
-cd /opt/caddy
-docker compose up -d
-docker compose -f compose-http-server.yaml up -d
+  => cd /opt/caddy
+  => docker compose up -d
+  => docker compose -f compose-http-server.yaml up -d
+
+Der simple-http-server ist dann zu erreichen unter: http://IP-Adresse:81
 
 eof
 exit 0
