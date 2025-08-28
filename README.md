@@ -1,5 +1,6 @@
 
-<img width="1200" height="363" alt="caddy" src="https://github.com/user-attachments/assets/c66add0c-d043-4c32-8568-405454cb88ac" />
+<img width="1200" height="363" alt="caddy" src="https://github.com/user-attachments/assets/f766b5db-b1bb-4a8e-8461-9d0f6c11b63a" />
+
 
 # Caddy Reverse Proxy 
 Siehe: [Caddy Blogbeitrag von Jusec ](https://jusec.me/caddy/)
