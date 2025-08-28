@@ -1,8 +1,7 @@
-
+name: http-server
 services:
     simple-http-server:
         image: jdkelley/simple-http-server:latest
-        container_name: http-server
         volumes:
             - /opt/caddy/file:/serve
         ports:
