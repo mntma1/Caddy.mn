@@ -5,7 +5,7 @@ services:
         volumes:
             - /opt/caddy/file:/serve
         ports:
-            - 81:8000
+            - 81:8000 # Den vorderen Port evtl. ändern, wenn er schon belegt ist(N:8000).
         networks:
             - caddy_net
 networks:
