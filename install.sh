@@ -43,7 +43,7 @@ eof
 
 cat<<info
 
-Der simple-http-server ist dann zu erreichen unter: http://IP-Adresse:81
+Der simple-http-server ist dann zu erreichen unter: http://$(hostname -I | awk '{print $1}' | cut -d/ -f1):81
 
 info
 exit 0
