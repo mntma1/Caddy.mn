@@ -11,9 +11,16 @@ cp -fv index.html /opt/caddy/file
 docker network create caddy_net
 docker compose -f /opt/caddy/compose.yaml up -d
 docker compose -f /opt/caddy/compose-http-server.yaml up -d
-
+echo
 
 # Nun das Caddyfile bearbeiten 
+cat<<editcaddyfile
+
+Nun editiere die Datei: /opt/caddy/Caddyfile
+============================================
+
+editcaddyfile
+
 cat<<eof
 
 # eMail für Let's encrypt
