@@ -29,6 +29,7 @@ $DOMAIN {
     reverse_proxy $IPADR:$CPORT
 }
 addet
+docker restart caddy
 echo
 cat<<ergebnis
 
