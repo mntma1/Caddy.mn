@@ -1,4 +1,4 @@
-{#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Createted By manfred 19.10.2025
 #
 # Add domain to Caddy 
