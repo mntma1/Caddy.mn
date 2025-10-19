@@ -7,18 +7,36 @@ sudo mkdir -pv /opt/caddy/{data,config,file}
 sudo chown -Rv $USER: /opt/caddy
 cp -fv install.sh compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/  
 cp -fv index.html /opt/caddy/file
-docker network create caddy_net
 
-# Gibt mehrzeiligen Text aus.
+docker network create caddy_net
+docker compose -f /opt/caddy/compose.yaml
+docker compose -f /opt/caddy/compose-http-server.yaml
+
+
+# Nun das Caddyfile bearbeiten 
 cat<<eof
 
-Führe nun nacheinander die folgenden Befehle aus:
+# eMail für Let's encrypt
+{
+    email deinName@mailDomain.de
+}
 
-  => cd /opt/caddy
-  => docker compose up -d
-  => docker compose -f compose-http-server.yaml up -d
+omv.meine.domain.de {
+    reverse_proxy 192.168.xxx.xxx:81
+}
+
+immich.meine.domain.de {
+    reverse_proxy 192.168.xxx.xxx:2283
+}
+
+apachegua.meine.domain.de {
+    reverse_proxy 192.168.xxx.xxx:8081
+}
+eof
+
+cat<<info
 
 Der simple-http-server ist dann zu erreichen unter: http://IP-Adresse:81
 
-eof
+info
 exit 0
