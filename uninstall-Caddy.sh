@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Created by Manfred 19.10.2025
 
 compose -f /opt/caddy/compose.yaml down
 compose -f /opt/caddy/compose-http-server.yaml down
