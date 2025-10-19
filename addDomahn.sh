@@ -12,8 +12,6 @@ echo
 read -p 'Den Port bitte: ' CPORT
 echo
 
-echo Zum Caddyfile hinzugefügt:
-echo ==========================
 cat<<admomain>>$CFIELE
 
 $DOMAIN {
