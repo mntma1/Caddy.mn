@@ -4,6 +4,7 @@
 docker compose -f /opt/caddy/compose.yaml down
 docker compose -f /opt/caddy/compose-http-server.yaml down
 docker image rm caddy:latest
+docker image rm jdkelley/simple-http-server
 docker network rm caddy_net
 sudo rm -rfv /opt/caddy
 clear
