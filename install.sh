@@ -13,7 +13,6 @@ docker compose -f /opt/caddy/compose.yaml up -d
 docker compose -f /opt/caddy/compose-http-server.yaml up -d
 echo
 
-# Nun das Caddyfile bearbeiten 
 cat<<editcaddyfile
 
 Nun editiere die Datei: /opt/caddy/Caddyfile
@@ -43,7 +42,7 @@ eof
 
 cat<<info
 
-Der simple-http-server ist dann zu erreichen unter: http://$(hostname -I | awk '{print $1}' | cut -d/ -f1):81
+Der simple-http-server ist zu erreichen unter: http://$(hostname -I | awk '{print $1}' | cut -d/ -f1):81
 
 info
 exit 0
