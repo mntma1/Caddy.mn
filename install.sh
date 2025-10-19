@@ -9,8 +9,8 @@ cp -fv install.sh compose.yaml Caddyfile compose-http-server.yaml /opt/caddy/
 cp -fv index.html /opt/caddy/file
 
 docker network create caddy_net
-docker compose -f /opt/caddy/compose.yaml
-docker compose -f /opt/caddy/compose-http-server.yaml
+docker compose -f /opt/caddy/compose.yaml up -d
+docker compose -f /opt/caddy/compose-http-server.yaml up -d
 
 
 # Nun das Caddyfile bearbeiten 
