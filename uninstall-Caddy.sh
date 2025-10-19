@@ -8,6 +8,7 @@ docker image rm jdkelley/simple-http-server
 docker network rm caddy_net
 sudo rm -rfv /opt/caddy
 clear
+docker stats --no-stream
 cat<<fertig
 
 ....Fertig
