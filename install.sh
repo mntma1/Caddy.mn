@@ -29,7 +29,7 @@ echo
 
 cat<<info
 
-ie E-Mail Adresse lautet für Let's Encrypt: $EMAIL
+Die E-Mail Adresse für Let's Encrypt lautet: $EMAIL
 
 Der simple-http-server ist zu erreichen unter: http://$(hostname -I | awk '{print $1}' | cut -d/ -f1):81
 
