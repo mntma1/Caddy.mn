@@ -11,11 +11,14 @@
 1. Installiere Docker
 ```
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
+```
+``
 sudo usermod -aG docke $USER 
 ```
 2. Installiere git
 ```
 sudo apt install git
+
 # Unter Debian & Ubuntu  
 ```
 
