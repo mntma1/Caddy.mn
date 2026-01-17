@@ -3,7 +3,7 @@
 
 
 # Caddy Reverse Proxy 
-## Instalatons-Script von Manne Maus
+## Installations-Script von Manne Maus
 ## Siehe: [Caddy Blogbeitrag von Jusec ](https://jusec.me/caddy/)
 > [!TIP]
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
