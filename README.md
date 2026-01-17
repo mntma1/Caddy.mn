@@ -8,18 +8,23 @@
 > [!TIP]
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
 
-1. Installiere **Docker**
+1. Installiere Docker
 ```
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
+sudo usermod -aG docke $USER 
 ```
-2. Installiere **git**
+2. Installiere git
+```
+sudo apt install git
+# Unter Debian & Ubuntu  
+```
 
 2. Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-3. Führe das **Instabil-Script** aus.
+3. Führe das Instabil-Script aus.
 ```
 cd Caddy.mn
 ./install.sh
