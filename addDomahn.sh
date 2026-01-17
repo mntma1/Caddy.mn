@@ -5,10 +5,13 @@
 CFIELE=/opt/caddy/Caddyfile
 clear
 echo
+echo 'Hier sub.deinedomain.de'
 read -p 'Den Domainnamen bitt: ' DOMAIN
 echo
+echo 'die locale IP  192.168.xxx.xxx'
 read -p 'Die IP-Adreee bitte: ' IPADR
 echo
+echo 'Den Port der App :xx'
 read -p 'Den Port bitte: ' CPORT
 echo
 
