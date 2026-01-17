@@ -8,17 +8,22 @@
 > [!TIP]
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
 
-1. Lade das Repository herunter
+1. Installiere Docker
+```
+curl -sSL https://get.docker.com/ | CHANNEL=stable sh
+```
+
+2. Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-2. Feuere das Install-Script ab.
+3. Feuere das Install-Script ab.
 ```
 cd Caddy.mn
 ./install.sh
 ```
 
-3. Befolge die Anweisungen
+4. Befolge die Anweisungen
 
-## Viel Erfolg
+## Viel spaß
