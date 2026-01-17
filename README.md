@@ -8,17 +8,18 @@
 > [!TIP]
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
 
-1. Installiere Docker
+1. Installiere **Docker**
 ```
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 ```
+2. Installiere **git**
 
 2. Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-3. Feuere das Install-Script ab.
+3. Führe das **Instabil-Script** aus.
 ```
 cd Caddy.mn
 ./install.sh
@@ -26,4 +27,4 @@ cd Caddy.mn
 
 4. Befolge die Anweisungen
 
-## Viel spaß
+## Viel Spaß
