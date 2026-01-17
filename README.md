@@ -12,7 +12,8 @@
 ```
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 ```
-``
+1.1 Füge dich zur Gruppe **docker** hinzu
+```
 sudo usermod -aG docke $USER 
 ```
 2. Installiere git
