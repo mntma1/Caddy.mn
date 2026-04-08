@@ -23,7 +23,7 @@ sudo apt install git
 # Unter Debian & Ubuntu  
 ```
 
-2. Lade das Repository herunter
+2.1 Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
