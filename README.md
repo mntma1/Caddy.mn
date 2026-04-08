@@ -16,6 +16,7 @@ curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 ```
 sudo usermod -aG docker $USER 
 ```
+
 2. Installiere git
 ```
 sudo apt install git
