@@ -10,6 +10,7 @@
 
 1. Installiere Docker
 ```
+sudo apt install curl
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 ```
 1.1 Füge dich zur Gruppe ***docker*** hinzu
