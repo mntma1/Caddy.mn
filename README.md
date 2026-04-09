@@ -18,6 +18,10 @@ curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 sudo usermod -aG docker $USER 
 ```
 
+> [!TIP]
+> Mede dich ab und wieder an
+> Erst dann bist du in der Guppe ***docker***
+
 2. Installiere git
 ```
 sudo apt install git
