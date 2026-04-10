@@ -35,7 +35,7 @@ sudo apt install git
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-3. Führe das Instabil-Script aus.
+3. Führe das install-Script aus.
 ```
 cd Caddy.mn
 ./install.sh
