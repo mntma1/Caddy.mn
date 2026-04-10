@@ -22,6 +22,19 @@ cat<<editcaddyfile>$CFILE
 {
     email $EMAIL
 }
+
+# Beispiele
+#omv.meine.domain.de {
+#    reverse_proxy 192.168.xxx.xxx:81
+#}
+
+#jellyfin.meine.domain.de {
+#    reverse_proxy 192.168.xxx.xxx:8096
+#}
+
+#guacamo.meine.domain.de {
+#    reverse_proxy 192.168.xxx.xxx:8081
+#}
 editcaddyfile
 
 # Startet Caddy
