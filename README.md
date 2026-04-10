@@ -42,9 +42,6 @@ cd Caddy.mn
 
 4. Befolge die Anweisungen
 
-<center>
- <span style='font-size:80px;'>&#128526;</span><br>
- <font face="arial" size="3"><b>Caddy ist echt Cool</b></font><br>
-</center>
-
+<font face="arial" size="3"><b>Caddy ist echt Cool</b></font><br> <span style='font-size:80px;'>&#128526;</span>
+ 
 ## Viel Spaß
