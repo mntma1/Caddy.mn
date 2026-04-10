@@ -56,6 +56,7 @@ Die E-Mail Adresse für Let's Encrypt lautet: $EMAIL
 Der simple-http-server ist zu erreichen unter: http://$(hostname -I | awk '{print $1}' | cut -d/ -f1):81
 
 => Füge nun eine Domain mit: -> ./addDomain.sh <- hinzu
+=> Oder editiere: $CFILE
 
 ....Das war einfach :-)
 
