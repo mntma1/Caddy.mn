@@ -45,6 +45,6 @@ cd Caddy.mn
 <center>
  <span style='font-size:80px;'>&#128526;</span><br>
  <font face="arial" size="3"><b>Caddy ist echt Cool</b></font><br>
-</center>center>
+</center>
 
 ## Viel Spaß
