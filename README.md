@@ -7,6 +7,7 @@
 ### Siehe auch: [Caddy Blogbeitrag von Jusec ](https://jusec.me/caddy/)
 > [!TIP]
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
+> > Erst alles lesen, dann Machen!
 
 1. Installiere Docker
 ```
