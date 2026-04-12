@@ -10,9 +10,8 @@
 > > Erst alles lesen, dann Machen!
 
 1. Feste IP 
-Hast du eine Feste IP? 
-
-Dann fahere mit Punkt 2. fort.
+Hast du eine Feste IP, 
+dann fahere mit Punkt 2. fort.
 
 Wenn nicht:
 
