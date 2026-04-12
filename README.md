@@ -11,9 +11,11 @@
 
 1. Feste IP 
 Hast du eine Feste IP? 
+
 Dann fahere mit Punkt 2. fort.
 
 Wenn nicht:
+
 Richte dir eine DynDNS Domai ein.
 
 > [!TIP]
@@ -22,9 +24,11 @@ Richte dir eine DynDNS Domai ein.
 > > https://ipv64.net/dyndns 
 
 1.1 Richte ein Portforwardig auf deinem Router ein
-Lasse Port: 80,443 auf die Maschine zeigen 
-
- auf der Du Caddy installierst.
+Lasse Port: 
+```
+80,443
+```
+auf die Maschine zeigen auf der Du Caddy installien möchtest.
 
 2. Installiere Docker
 ```
