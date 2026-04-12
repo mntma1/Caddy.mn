@@ -26,7 +26,7 @@ Richte dir eine DynDNS Domain ein.
 
 Lasse Port: 
 ```
-80,443,8080
+80,443
 ```
 auf die Maschine zeigen auf der Du Caddy installieren möchtest.
 
