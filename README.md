@@ -31,7 +31,7 @@ Lasse Port:
 auf die Maschine zeigen auf der Du Caddy installieren möchtest.
 
 Auf einer FritzBox
-<img width="1172" height="83" alt="PortforwardFB" src="https://github.com/user-attachments/assets/ce2129dd-cfea-441b-82c6-32217d429b42" />
+<img width="1270" height="57" alt="PortforwardFB" src="https://github.com/user-attachments/assets/3cc50fe8-90e6-42f9-a9de-80519c98b313" />
 
 2. Installiere Docker
 ```
