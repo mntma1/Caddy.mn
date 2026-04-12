@@ -12,17 +12,15 @@
 1. Feste IP 
 
 Hast du eine Feste IP, 
-
 dann fahere mit Punkt 2. fort.
 
 Wenn nicht:
-
-Richte dir eine DynDNS Domai ein.
+Richte dir eine DynDNS Domain ein.
 
 > [!TIP]
 > Meine Empfehlung
 > > Ein guter DynDNS Anbieter 
-> > https://ipv64.net/dyndns 
+> > > https://ipv64.net/dyndns 
 
 1.1 Richte ein Portforwardig auf deinem Router ein
 Lasse Port: 
