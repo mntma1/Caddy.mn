@@ -23,11 +23,15 @@ Richte dir eine DynDNS Domain ein.
 > > > https://ipv64.net/dyndns 
 
 1.1 Richte ein Portforwardig auf deinem Router ein
+
 Lasse Port: 
 ```
 80,443
 ```
 auf die Maschine zeigen auf der Du Caddy installien möchtest.
+
+<img width="1274" height="143" alt="PortforwardFB" src="https://github.com/user-attachments/assets/12e2d985-ca91-4929-815d-c102120f2429" />
+
 
 2. Installiere Docker
 ```
