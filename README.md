@@ -9,12 +9,26 @@
 > Mach dir erstmal einen Kaffee, dies hier kann nämlich etwas dauern.
 > > Erst alles lesen, dann Machen!
 
-1. Installiere Docker
+1. Feste IP 
+
+Hast du eine Feste IP? 
+Dann fahere mit Punkt 2. fort.
+
+Wenn nicht:
+Richte dir eine DynDNS Domai ein.
+
+> [!TIP]
+> Meine Empfehlung
+> > Ein guter DynDNS Anbieter 
+> > https://ipv64.net/dyndns 
+
+2. Installiere Docker
 ```
 sudo apt install curl
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 ```
-1.1 Füge dich zur Gruppe ***docker*** hinzu
+
+2.1 Füge dich zur Gruppe ***docker*** hinzu
 ```
 sudo usermod -aG docker $USER 
 ```
@@ -23,25 +37,25 @@ sudo usermod -aG docker $USER
 > Mede dich ab und wieder an
 >> Erst dann bist du in der Guppe ***docker***
 
-2. Installiere git
+3. Installiere git
 ```
 sudo apt install git
 
 # Unter Debian & Ubuntu  
 ```
 
-2.1 Lade das Repository herunter
+3.1 Lade das Repository herunter
 ```
 git clone https://github.com/mntma1/Caddy.mn.git
 ```
 
-3. Führe das install-Script aus.
+4. Führe das install-Script aus.
 ```
 cd Caddy.mn
 ./install.sh
 ```
 
-4. Befolge die Anweisungen
+5. Befolge die Anweisungen
 
 **Caddy ist echt Cool** <span style='font-size:80px;'>&#128526;</span>
  
