@@ -22,7 +22,7 @@ Richte dir eine DynDNS Domain ein.
 > > Ein guter DynDNS Anbieter 
 > > > https://ipv64.net/dyndns 
 
-1.1 Richte ein Portforwardig auf deinem Router ein
+1.1 Richte ein Portforwardig (Internet/Freigaben) auf deinem Router ein
 
 Lasse Port: 
 ```
