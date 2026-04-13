@@ -47,8 +47,6 @@ sleep 3;
 docker stats --no-stream
 echo
 
-
-
 cat<<info
 
 Die E-Mail Adresse für Let's Encrypt lautet: $EMAIL
