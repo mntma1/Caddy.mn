@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Craeated by: Manfred
 # Date: 23.08.2025
+# Modified: 13.04.2026
+# manfred@open-jazz.de
 
 CFILE=/opt/caddy/Caddyfile
 
